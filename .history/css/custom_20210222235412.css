@@ -136,16 +136,5 @@ font-size: inherit;
 line-height: inherit;
 }
 button, input{
-    overflow: visible;
+    overflow: visi;
 }
-button,select{
-    text-transform: none;
-}
-button, html[type="button"],[type="reset"],[type="submit"]{
-    -webkit-appearance: button;
-}
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
-    padding: 0;
-    border-style: none;
-}
-
