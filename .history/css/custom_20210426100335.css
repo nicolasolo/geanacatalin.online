@@ -148,10 +148,3 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-mo
 }
 
 /*index html*/
-
-h1{
-    color: pink;
-}
-h2{
-    color: red;
-}
