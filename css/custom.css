@@ -2,6 +2,9 @@
 h1{
     color: pink;
 }
+h2{
+    color: red;
+}
 *,
 *::before,
 *::after{
@@ -149,3 +152,4 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-mo
     border-style: none;
 }
 
+/*index html*/
