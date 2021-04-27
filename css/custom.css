@@ -227,6 +227,7 @@ nav {
   justify-content: end;
 }
 .hamburger-menu {
+  color: black;
 }
 .home {
   position: relative;
