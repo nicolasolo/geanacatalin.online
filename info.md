@@ -17,7 +17,8 @@
         "\\.vscode",
         "\\.git",
         "\\.DS_Store",
-        "\\.history"
+        "\\.history",
+        "\\.md"
     ],
     "generatedFiles": {
         "extensionsToInclude": [
