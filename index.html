@@ -91,7 +91,13 @@
         <div class="logo">
           <a href="index.html"> geana catalin</a>
         </div>
-        <div class="hamburger-container"></div>
+        <div class="hamburger-container">
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
     </nav>
     <section>
@@ -149,25 +155,68 @@
       </div>
     </section>
     <section class="skills">
-        <div style="width: 100%;">
-          <h2>skills</h2>
-        </div>
+      <div>
+        <span></span>
+        <h2>skills</h2>
+        <span></span>
+      </div>
       <div class="skills-section">
-      
         <div class="pro">
           <h3>professional</h3>
+          <div class="skills-card">
+            <div class="dot" style="width: 70%"></div>
+            <div>
+              <h3>HTML5</h3>
+            </div>
+          </div>
+          <div class="skills-card">
+            <div class="dot" style="width: 50%"></div>
+            <div>
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div class="skills-card">
+            <div class="dot" style="width: 40%"></div>
+            <div>
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="dot" style="width: 50%"></div>
+            <div>
+              <h3>Adobe Photoshop</h3>
+            </div>
+          </div>
+          <div class="skills-card">
+            <div class="dot" style="width: 60%"></div>
+            <div>
+              <h3>Adobe Illustrator</h3>
+            </div>
+          </div>
         </div>
         <div class="lang">
           <h3>language</h3>
+          <div class="skills-card">
+            <div class="dot" style="width: 50%"></div>
+            <div>
+              <h3>English</h3>
+            </div>
+          </div>
+          <div class="skills-card">
+            <div class="dot" style="width: 70%"></div>
+            <div>
+              <h3>Italian</h3>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section class="gallery">
-      <div style="width: 100%;">
-      <h2 >gallery</h2>
-    </div>
+      <div style="width: 100%">
+        <h2>gallery</h2>
+      </div>
       <div class="gallery-section">
-       
         <div class="web-gallery">
           <h3>web</h3>
         </div>
@@ -178,7 +227,7 @@
     </section>
     <section class="contacts">
       <footer>
-        <p>2021 geana catalin Grafic and Web Designer</p>
+        <p>2021 Geana Catalin - Grafic and Web Designer</p>
       </footer>
     </section>
 
@@ -197,6 +246,16 @@
       var h = document.querySelector("html");
       var hl = h.getAttribute("lang");
       document.querySelector("html").setAttribute("lang", lan);
+      var hamburger = document.querySelector(".hamburger-menu");
+      var span = document.querySelectorAll("span");
+      hamburger.addEventListener("click", () => {
+        //for(var i =0; i < span.lenght; i++){
+        //span[i].classList.toggle('active')
+        //}
+        document.querySelectorAll("span")[0].classList.toggle("active");
+        document.querySelectorAll("span")[1].classList.toggle("active");
+        document.querySelectorAll("span")[2].classList.toggle("active");
+      });
     </script>
     <script src="" async defer></script>
   </body>
